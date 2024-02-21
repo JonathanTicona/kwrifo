@@ -1,6 +1,5 @@
 body {
     color: white;
-    background-color: rgb(49, 0, 128);
     font-family: Lato, Arial;
     text-align: center;
   }
@@ -16,7 +15,7 @@ body {
   }
   
   h1 {
-    color: rgb(95, 230, 33);
+    color: rgb(230, 230, 33);
   }
   
   h2 {
@@ -24,3 +23,15 @@ body {
   }
   
   
+@keyframes bodyColorAnimation {
+  0% {
+    background-color: red;
+
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: red;
+  }
+}
