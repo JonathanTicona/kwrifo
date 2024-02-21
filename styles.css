@@ -1,0 +1,26 @@
+body {
+    color: white;
+    background-color: rgb(49, 0, 128);
+    font-family: Lato, Arial;
+    text-align: center;
+  }
+  
+  p {
+    font-size:14pt;
+  }
+  
+  li {
+    padding-bottom: 5px;
+    text-align: left;
+    font-size:10pt;
+  }
+  
+  h1 {
+    color: rgb(95, 230, 33);
+  }
+  
+  h2 {
+    padding-top: 50px;
+  }
+  
+  
