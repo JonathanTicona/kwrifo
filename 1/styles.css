@@ -21,8 +21,16 @@ body {
   h2 {
     padding-top: 50px;
   }
-  
-  
+  .test {
+    width: 100%;
+    text-align: center;
+    font-size: larger;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 1px;
+  }
+  #test2{
+    font-size: 100;
+  }
 @keyframes bodyColorAnimation {
   0% {
     background-color: red;
