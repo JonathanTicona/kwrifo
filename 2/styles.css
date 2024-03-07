@@ -1,73 +1,105 @@
-body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-h1 {
-    width: 100%;
-    font-weight: lighter;
-    text-align: center;
-    font-size: 40px;
-    color: indianred;
-   }
-h2{
-    display:inline-block;
-    text-align: center;
-    background-color: indianred;
-    padding: 3px;
-    margin: 5px;
-    font-size: 28px;
-    color: white;
-}
-h3{
-    display: inline-block;
-    font-weight: bold;
-    text-align: center;
-    background-color:white;
-    padding: 10px;
-    color: indianred;
-}
-.container{
-    min-width: 775px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.main{
-    background-size: cover;
-    min-width: 964px;
-    min-height: 422px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url("img/hamburgvyk99.jpg");
-}
-.more{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 45px;
-}
-.more div{
-    background-size: cover;
-    min-width: 450px;
-    min-height: 345px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 30px;
-    margin-left: 30px;
-}
-#sights{
-    background-image: url("img/sehenswuerdigkeiteng6jig.jpg");
-}
-#events{
-    background-image: url("img/veranstaltungensbjlz.jpg");
-}
-#footer{
-    text-align: center;
-    color: indianred;
-    width: 100%;
-    font-weight: lighter;
-    font-size: 20px;
-    padding: 50px;
-}
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        
+        h1 {
+            width: 100%;
+            font-weight: lighter;
+            text-align: center;
+            font-size: 40px;
+            color: indianred;
+        }
+        
+        h2 {
+            display: inline-block;
+            text-align: center;
+            background-color: indianred;
+            padding: 3px;
+            margin: 5px;
+            font-size: 28px;
+            color: white;
+        }
+        
+        h3 {
+            display: inline-block;
+            font-weight: bold;
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            color: indianred;
+        }
+        
+        .container {
+            min-width: 775px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .main {
+            background-size: cover;
+            min-width: 964px;
+            min-height: 422px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: url("img/hamburgvyk99.jpg");
+        }
+        
+        .more {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 45px;
+        }
+        
+        .more div {
+            background-size: cover;
+            min-width: 450px;
+            min-height: 345px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 30px;
+            margin-left: 30px;
+        }
+        
+        .button {
+            background-color: #aa4343;
+            /* Green */
+            border: none;
+            color: white;
+            padding: 10px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 13%;
+            cursor: crosshair;
+        }
+        
+        .button:active {
+            background-color: rgb(214, 77, 100);
+        }
+        
+        .button:hover {
+            background-color: rgb(214, 77, 100);
+        }
+        
+        .button #sights {
+            background-image: url("img/sehenswuerdigkeiteng6jig.jpg");
+        }
+        
+        #events {
+            background-image: url("img/veranstaltungensbjlz.jpg");
+        }
+        
+        #footer {
+            text-align: center;
+            color: indianred;
+            width: 100%;
+            font-weight: lighter;
+            font-size: 20px;
+            padding: 50px;
+        }
